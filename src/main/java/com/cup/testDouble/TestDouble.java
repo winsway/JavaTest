@@ -18,7 +18,7 @@ public class TestDouble {
     public void testSpeed() {
         double doubleNum = 0;
         Double A = 0.0;
-        int loopCount = 1000000;
+        int loopCount = 1000000000;
         //计算double类型数据的循环耗时
         long timer1 = System.currentTimeMillis();
         for (int i = 0; i < loopCount; i++) {
