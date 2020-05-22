@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.cup.testparallel;
+package com.cup.testThreadparallel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,13 +14,14 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
+ * 测试线程并行
  *
  * @author winsway
  */
 public class Main {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-        List<TaskItem> taskItems = new ArrayList<TaskItem>();
+        List<TaskItem> taskItems = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             taskItems.add(new TaskItem(i, "task " + i));
         }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.cup.testparallel;
+package com.cup.testThreadparallel;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CountDownLatch;

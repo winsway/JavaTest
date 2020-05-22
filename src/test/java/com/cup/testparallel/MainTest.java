@@ -5,6 +5,7 @@
  */
 package com.cup.testparallel;
 
+import com.cup.testThreadparallel.Main;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

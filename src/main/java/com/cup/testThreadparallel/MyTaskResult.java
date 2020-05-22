@@ -3,28 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.cup.testparallel;
+package com.cup.testThreadparallel;
 
 /**
  *
  * @author winsway
  */
-public class TaskItem {
+public class MyTaskResult {
 
-    private int id;
     private String name;
 
-    public TaskItem(int id, String name) {
-        this.id = id;
+    public MyTaskResult(String name) {
         this.name = name;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {

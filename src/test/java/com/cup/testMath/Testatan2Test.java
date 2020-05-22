@@ -13,7 +13,7 @@ import org.junit.Test;
 
 /**
  *
- * @author winsw
+ * @author winsway
  */
 public class Testatan2Test {
 
